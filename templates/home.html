@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>CHOOSE ANALYSIS TO RUN</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+   </head>
+   <body>
+   
+      
+      <p>CHOOSE ANALYSIS TO RUN</p>
+      <header>
+         <div class="container">
+         <div class="row align-items-center justify-content-center"></div>
+            <strong>
+               <nav>
+                  <ul class="menu">
+                     <li><a href="{{  url_for('kilosort') }}">Kilosort</a></li>
+                     <li><a href="{{  url_for('sc') }}">SpyKing Circus</a></li>
+                     <li><a href="{{  url_for('sspipe') }}">Spike Sorting Pipeline with ground truth validation</a></li>
+                     <li><a href="{{  url_for('results') }}">View Saved Results</a></li>
+                  </ul>
+               </nav>
+            </strong>
+         </div>
+      </header>
+      
+   </body>   
+</html>
