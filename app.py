@@ -12,10 +12,10 @@ def loginsignup():
 
 @app.route("/spykingcircus")
 def spykingcircus():
-    render_template("sc.html")
-    SC_bin.func()
+    #render_template("sc.html")
     
-    return 
+    
+    return SC_bin.func()
 
 @app.route("/home")
 def home():
@@ -38,5 +38,5 @@ def results():
 
 if __name__=="__main__":
      #port = int(os.environ.get('PORT',5000))
-     app.run(host='0.0.0.0')
+     app.run()
     
