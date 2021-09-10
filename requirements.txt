@@ -1,5 +1,6 @@
 Flask
-spikeinterface==0.90
+spikeinterface
 pandas
 scipy
 sklearn
+spyking-circus
