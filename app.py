@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-import SC_bin
+#import SC_bin
 app = Flask(__name__)
 
 @app.route("/")
@@ -13,9 +13,9 @@ def loginsignup():
 @app.route("/spykingcircus")
 def spykingcircus():
     #render_template("sc.html")
+    print("hello')
     
-    
-    return SC_bin.func()
+    return render_template("sc.html")
 
 @app.route("/home")
 def home():
