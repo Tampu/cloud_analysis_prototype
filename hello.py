@@ -2,11 +2,11 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/")
-def loginsignup():
-    return render_template("loginsignup.html")
+#@app.route("/")
+#def loginsignup():
+   # return render_template("loginsignup.html")
 
-@app.route("/home")
+@app.route("/")
 def home():
     return render_template("home.html")    
 
